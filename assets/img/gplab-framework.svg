@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 880" role="img" aria-labelledby="title desc">
+  <title id="title">GPLab policy simulation and evaluation framework</title>
+  <desc id="desc">A three-layer architecture diagram showing policy inputs, LLM-driven social agents, modular social subsystems, and a simulation and evaluation feedback loop.</desc>
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1d31"/><stop offset="1" stop-color="#0f766e"/></linearGradient>
+    <linearGradient id="agent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0f2fe"/><stop offset="1" stop-color="#f0fdfa"/></linearGradient>
+    <linearGradient id="eval" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fef3c7"/><stop offset="1" stop-color="#fffbeb"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#10324a" flood-opacity=".13"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#2f5f78"/></marker>
+    <marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#0f766e"/></marker>
+    <style>
+      .sans{font-family:Arial,Helvetica,sans-serif}.title{font-size:42px;font-weight:700;fill:#fff}.sub{font-size:18px;fill:#c9f7ef}.layer{font-size:17px;font-weight:700;letter-spacing:2px;fill:#0f766e}.boxh{font-size:20px;font-weight:700;fill:#12324a}.boxp{font-size:15px;fill:#4a6172}.small{font-size:14px;fill:#5b7180}.white{font-size:18px;font-weight:700;fill:#fff}.tag{font-size:14px;font-weight:700;fill:#0e5d57}.num{font-size:16px;font-weight:700;fill:#fff}
+    </style>
+  </defs>
+  <rect width="1400" height="880" rx="32" fill="#f7fbfc"/>
+  <path d="M0 0h1400v170H0z" fill="url(#hero)"/>
+  <text x="68" y="76" class="sans title">GPLab</text>
+  <text x="70" y="111" class="sans sub">Generative Policy Laboratory · Policy Simulation &amp; Evaluation</text>
+  <g transform="translate(1040 46)"><rect width="288" height="57" rx="28" fill="#ffffff" fill-opacity=".12" stroke="#d8fffa" stroke-opacity=".32"/><text x="28" y="35" class="sans white">LLM × ABM × Policy</text></g>
+
+  <g filter="url(#shadow)">
+    <rect x="360" y="133" width="680" height="92" rx="16" fill="#fff" stroke="#b7d9e0"/>
+    <circle cx="416" cy="179" r="25" fill="#0f766e"/><text x="411" y="185" class="sans num">0</text>
+    <text x="463" y="169" class="sans boxh">Policy scenario &amp; population data</text>
+    <text x="463" y="195" class="sans boxp">Policy text · intervention intensity · agent profiles · initial conditions</text>
+  </g>
+  <path d="M700 225v39" stroke="#2f5f78" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="268" width="1220" height="184" rx="20" fill="url(#agent)" stroke="#7eb7c9" stroke-width="2"/>
+    <text x="126" y="307" class="sans layer">01 · SOCIAL AGENTS</text>
+    <text x="126" y="332" class="sans small">LLM-driven boundedly rational individuals</text>
+    <g transform="translate(121 356)"><rect width="238" height="70" rx="12" fill="#fff" stroke="#a6cbd8"/><text x="20" y="29" class="sans boxh">Static attributes</text><text x="20" y="52" class="sans boxp">demography · roles · goals</text></g>
+    <g transform="translate(391 356)"><rect width="238" height="70" rx="12" fill="#fff" stroke="#a6cbd8"/><text x="20" y="29" class="sans boxh">Dynamic cognition</text><text x="20" y="52" class="sans boxp">memory · emotion · reflection</text></g>
+    <g transform="translate(661 356)"><rect width="238" height="70" rx="12" fill="#fff" stroke="#a6cbd8"/><text x="20" y="29" class="sans boxh">Subsystem perception</text><text x="20" y="52" class="sans boxp">context · signals · constraints</text></g>
+    <g transform="translate(931 356)"><rect width="338" height="70" rx="12" fill="#d1fae5" stroke="#34a78f"/><text x="20" y="29" class="sans boxh">LLM decision &amp; interaction</text><text x="20" y="52" class="sans boxp">situated choices · communication · adaptation</text></g>
+  </g>
+  <path d="M700 452v39" stroke="#2f5f78" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="495" width="1220" height="156" rx="20" fill="#f0fdfa" stroke="#5abcae" stroke-width="2"/>
+    <text x="126" y="534" class="sans layer">02 · MODULAR SOCIAL SUBSYSTEMS</text>
+    <text x="126" y="559" class="sans small">Policy transmission across connected social domains</text>
+    <g transform="translate(385 525)"><rect width="190" height="94" rx="14" fill="#fff" stroke="#6cc4b6"/><text x="39" y="39" class="sans boxh">Public opinion</text><text x="34" y="65" class="sans boxp">emotion · diffusion</text></g>
+    <g transform="translate(605 525)"><rect width="190" height="94" rx="14" fill="#fff" stroke="#6cc4b6"/><text x="60" y="39" class="sans boxh">Economy</text><text x="33" y="65" class="sans boxp">choice · response</text></g>
+    <g transform="translate(825 525)"><rect width="190" height="94" rx="14" fill="#fff" stroke="#6cc4b6"/><text x="39" y="39" class="sans boxh">Policy context</text><text x="31" y="65" class="sans boxp">rules · institutions</text></g>
+    <path d="M575 572h30" stroke="#0f766e" stroke-width="3" marker-end="url(#arrow-teal)"/><path d="M795 572h30" stroke="#0f766e" stroke-width="3" marker-end="url(#arrow-teal)"/>
+  </g>
+  <path d="M700 651v39" stroke="#2f5f78" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="694" width="1220" height="142" rx="20" fill="url(#eval)" stroke="#e4ae47" stroke-width="2"/>
+    <text x="126" y="733" class="sans layer" fill="#a66208">03 · SIMULATE &amp; EVALUATE</text>
+    <g transform="translate(390 721)"><rect width="200" height="78" rx="12" fill="#fff" stroke="#e7c269"/><text x="29" y="32" class="sans boxh">Experiment control</text><text x="29" y="56" class="sans boxp">time · scenarios · QPS</text></g>
+    <g transform="translate(615 721)"><rect width="200" height="78" rx="12" fill="#fff" stroke="#e7c269"/><text x="28" y="32" class="sans boxh">Outcome metrics</text><text x="28" y="56" class="sans boxp">heterogeneity · effects</text></g>
+    <g transform="translate(840 721)"><rect width="280" height="78" rx="12" fill="#fff" stroke="#e7c269"/><text x="31" y="32" class="sans boxh">Evidence &amp; policy iteration</text><text x="31" y="56" class="sans boxp">comparison · interpretation · optimisation</text></g>
+  </g>
+  <path d="M1210 762 C1350 762 1348 338 1275 338" fill="none" stroke="#0f766e" stroke-dasharray="9 8" stroke-width="3" marker-end="url(#arrow-teal)"/>
+  <text x="1160" y="503" class="sans tag">feedback loop</text>
+  <text x="70" y="868" class="sans small">Original visual summary based on GPLab’s published three-layer architecture.</text>
+</svg>

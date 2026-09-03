@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Policy evaluation research cover</title>
+  <desc id="desc">An abstract diagram of policy text, social agents, public opinion and economic feedback.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d2338"/><stop offset="1" stop-color="#146c71"/></linearGradient><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l8-3z" fill="#8ee8db"/></marker></defs>
+  <rect width="1200" height="630" rx="28" fill="url(#bg)"/>
+  <g fill="none" stroke="#93e8df" stroke-opacity=".2"><circle cx="1000" cy="85" r="245"/><circle cx="1000" cy="85" r="185"/><path d="M0 490c205-167 329 132 620-18s376-6 580-188"/></g>
+  <text x="78" y="105" fill="#c7fffa" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="4">GENERATIVE POLICY EVALUATION</text>
+  <text x="76" y="170" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="700">Policy text → social response → evidence</text>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <g transform="translate(92 265)"><rect width="240" height="132" rx="16" fill="#fff" fill-opacity=".12" stroke="#baf7ef"/><text x="28" y="48" fill="#fff" font-size="22" font-weight="700">Policy scenario</text><text x="28" y="79" fill="#d7fffa" font-size="17">rules · intensity · timing</text></g>
+    <g transform="translate(480 265)"><rect width="240" height="132" rx="16" fill="#fff" fill-opacity=".12" stroke="#baf7ef"/><text x="28" y="48" fill="#fff" font-size="22" font-weight="700">Generative agents</text><text x="28" y="79" fill="#d7fffa" font-size="17">memory · emotion · choice</text></g>
+    <g transform="translate(868 265)"><rect width="240" height="132" rx="16" fill="#fff" fill-opacity=".12" stroke="#baf7ef"/><text x="28" y="48" fill="#fff" font-size="22" font-weight="700">System outcomes</text><text x="28" y="79" fill="#d7fffa" font-size="17">opinion · economy · feedback</text></g>
+  </g>
+  <path d="M332 331h145" fill="none" stroke="#8ee8db" stroke-width="4" marker-end="url(#arr)"/><path d="M720 331h145" fill="none" stroke="#8ee8db" stroke-width="4" marker-end="url(#arr)"/>
+  <g transform="translate(315 475)"><rect width="570" height="70" rx="35" fill="#a7f3d0"/><text x="55" y="45" fill="#123b4b" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700">Compare scenarios · validate evidence · improve policy design</text></g>
+</svg>

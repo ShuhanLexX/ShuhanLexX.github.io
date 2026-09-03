@@ -2,21 +2,19 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Shuhan Zhang | 张舒涵
+first_name: Shuhan
+middle_name:
+last_name: Zhang
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Open to research collaboration on legislative studies, policy evaluation, and generative social simulation.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Academic homepage of ShuhanLexX.
+  Shuhan Zhang is a doctoral researcher working at the intersection of legislative studies, policy evaluation, and generative agent-based social simulation.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a> · Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: legislative studies, policy evaluation, generative agents, social simulation, computational social science, 大模型社会模拟, 立法学 # add your own keywords or leave empty
+lang: zh-CN # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: ⚖️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://shuhanlexx.github.io # the base hostname & protocol for your site
@@ -96,23 +94,23 @@ al_folio:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
-socials_in_search: true
+socials_in_search: false
 posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1140px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/shuhan-zhang-monogram.svg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -136,8 +134,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: 研究札记 # blog_name will be displayed in your blog page
+blog_description: 从立法问题到可检验、可比较、可优化的政策实验
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -348,16 +346,16 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["政策仿真", "生成式代理", "立法与评估"] # these tags will be displayed on the front page of your blog
+display_categories: ["研究方法", "平台与实践"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Zhang]
+  first_name: [Shuhan, S.]
 
   style: apa
   locale: en
@@ -383,10 +381,10 @@ scholar:
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  altmetric: false # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
+  dimensions: false # Dimensions badge (Customization options: https://badge.dimensions.ai/)
+  google_scholar: false # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
@@ -479,8 +477,8 @@ enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
-enable_project_categories: true # enables categorization of projects into multiple categories
+enable_navbar_social: true # enables displaying social links in the navbar on the about page
+enable_project_categories: false # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
