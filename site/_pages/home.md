@@ -5,7 +5,7 @@ sitemap: true
 permalink: /
 ---
 
-<div class="eyebrow">LAW · COMPUTATIONAL SOCIAL SCIENCE · POLICY RESEARCH</div>
+<p class="eyebrow">LAW · COMPUTATIONAL SOCIAL SCIENCE · POLICY RESEARCH</p>
 <h1 class="home-hero">{{ site.name }}</h1>
 <p class="home-hero-sub">{{ site.title }}<br>{{ site.institution }}</p>
 
