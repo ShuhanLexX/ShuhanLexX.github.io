@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="26.0.0">
+  <diagram name="GPLab Framework">
+    <mxGraphModel dx="1400" dy="880" grid="1" gridSize="10" page="1" pageWidth="1400" pageHeight="880">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Policy scenario &amp; population data&#xa;policy text · intervention intensity · agent profiles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="450" y="40" width="500" height="70" as="geometry" /></mxCell>
+        <mxCell id="3" value="01 · SOCIAL AGENTS" style="swimlane;startSize=30;pointerEvents=0;html=1;fillColor=#e0f2fe;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="100" y="170" width="1200" height="170" as="geometry" /></mxCell>
+        <mxCell id="4" value="Static attributes&#xa;demography · roles · goals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" vertex="1" parent="3"><mxGeometry x="40" y="60" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="5" value="Dynamic cognition&#xa;memory · emotion · reflection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" vertex="1" parent="3"><mxGeometry x="320" y="60" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="6" value="Subsystem perception&#xa;context · signals · constraints" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" vertex="1" parent="3"><mxGeometry x="600" y="60" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="7" value="LLM decision &amp; interaction&#xa;situated choices · communication" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3"><mxGeometry x="880" y="60" width="270" height="70" as="geometry" /></mxCell>
+        <mxCell id="8" value="02 · MODULAR SOCIAL SUBSYSTEMS" style="swimlane;startSize=30;pointerEvents=0;html=1;fillColor=#f0fdfa;strokeColor=#0f766e;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="100" y="410" width="1200" height="150" as="geometry" /></mxCell>
+        <mxCell id="9" value="Public opinion&#xa;emotion · diffusion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0f766e;" vertex="1" parent="8"><mxGeometry x="250" y="50" width="200" height="65" as="geometry" /></mxCell>
+        <mxCell id="10" value="Economy&#xa;choice · response" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0f766e;" vertex="1" parent="8"><mxGeometry x="500" y="50" width="200" height="65" as="geometry" /></mxCell>
+        <mxCell id="11" value="Policy context&#xa;rules · institutions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0f766e;" vertex="1" parent="8"><mxGeometry x="750" y="50" width="200" height="65" as="geometry" /></mxCell>
+        <mxCell id="12" value="03 · SIMULATE &amp; EVALUATE" style="swimlane;startSize=30;pointerEvents=0;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="100" y="630" width="1200" height="150" as="geometry" /></mxCell>
+        <mxCell id="13" value="Experiment control&#xa;time · scenarios · QPS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" vertex="1" parent="12"><mxGeometry x="230" y="50" width="220" height="65" as="geometry" /></mxCell>
+        <mxCell id="14" value="Outcome metrics&#xa;heterogeneity · effects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" vertex="1" parent="12"><mxGeometry x="500" y="50" width="220" height="65" as="geometry" /></mxCell>
+        <mxCell id="15" value="Evidence &amp; policy iteration&#xa;comparison · interpretation · optimisation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" vertex="1" parent="12"><mxGeometry x="770" y="50" width="300" height="65" as="geometry" /></mxCell>
+        <mxCell id="16" value="Input" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="17" value="behaviour &amp; feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="8"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="18" value="outcomes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="12"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="19" value="iterate" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1360" y="705" /><mxPoint x="1360" y="255" /></Array></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
