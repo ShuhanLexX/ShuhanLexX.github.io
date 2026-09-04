@@ -5,7 +5,7 @@ sitemap: true
 permalink: /
 ---
 
-<section class="scholar-hero" aria-labelledby="profile-name">
+<section class="scholar-hero" aria-labelledby="profile-name" markdown="0">
   <img class="scholar-hero__mark" src="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}" alt="{{ site.name }} monogram" loading="eager">
   <div class="scholar-hero__content">
     <p class="profile-kicker">LAW · COMPUTATIONAL SOCIAL SCIENCE · POLICY EVALUATION</p>
@@ -20,12 +20,12 @@ permalink: /
   </div>
 </section>
 
-<div class="home-introduction">
+<div class="home-introduction" markdown="0">
   <p class="home-introduction__lead">I study how legislative and policy questions can be examined as complex social systems before rules are put into practice.</p>
   <p>My work connects constitutional and administrative law with generative AI, social simulation, and empirical validation. I develop reproducible research workflows for comparing policy scenarios, tracing trade-offs, and supporting more transparent legislative and policy evaluation.</p>
 </div>
 
-<section class="homepage-section" aria-labelledby="research-highlights">
+<section class="homepage-section" aria-labelledby="research-highlights" markdown="0">
   <h2 id="research-highlights">Research Highlights</h2>
   <p class="research-question">A guiding question: how can we make the anticipated effects of legislation and public policy more observable, comparable, and explainable?</p>
 
@@ -54,7 +54,7 @@ permalink: /
   </div>
 </section>
 
-<section class="homepage-section" aria-labelledby="selected-publications">
+<section class="homepage-section" aria-labelledby="selected-publications" markdown="0">
   <div class="section-heading-row">
     <div>
       <h2 id="selected-publications">Selected Publications</h2>
@@ -122,7 +122,7 @@ permalink: /
   <p class="figure-source-note">The GPLab preview uses the original framework figure from the published article. The other previews are editorial labels, not generated research figures.</p>
 </section>
 
-<section class="homepage-section home-lower-grid" aria-label="Academic updates and profile">
+<section class="homepage-section home-lower-grid" aria-label="Academic updates and profile" markdown="0">
   <div>
     <h2>News + Updates</h2>
     <ol class="news-list">
