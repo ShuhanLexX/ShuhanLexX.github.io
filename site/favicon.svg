@@ -1,30 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
-  <title id="title">Shuhan Zhang academic profile mark</title>
-  <desc id="desc">A navy and teal monogram with the initials SZ.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#081b2a"/>
-      <stop offset=".57" stop-color="#123b58"/>
-      <stop offset="1" stop-color="#0f766e"/>
-    </linearGradient>
-    <radialGradient id="orb" cx="77%" cy="17%" r="55%">
-      <stop offset="0" stop-color="#7dd3fc" stop-opacity=".8"/>
-      <stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="720" height="900" rx="38" fill="url(#bg)"/>
-  <rect width="720" height="900" rx="38" fill="url(#orb)"/>
-  <g opacity=".22" fill="none" stroke="#d9fbf6">
-    <circle cx="575" cy="155" r="210"/>
-    <circle cx="575" cy="155" r="155"/>
-    <path d="M-30 680C150 530 290 815 750 515"/>
-  </g>
-  <g fill="#e8fffb">
-    <text x="66" y="100" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="6">ACADEMIC PROFILE</text>
-    <text x="60" y="472" font-family="Georgia, serif" font-size="286" font-weight="700" letter-spacing="-36">SZ</text>
-    <text x="66" y="635" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Shuhan Zhang</text>
-    <text x="66" y="690" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#a7f3d0">张舒涵</text>
-  </g>
-  <rect x="66" y="748" width="175" height="4" fill="#5eead4"/>
-  <text x="66" y="805" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#d5fbf5" letter-spacing="1">POLICY · LAW · SIMULATION</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Shuhan Zhang</title>
+  <rect width="64" height="64" rx="12" fill="#174A66"/>
+  <path d="M8 50H56" stroke="#8CAABD" stroke-width="1.5"/>
+  <text x="32" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-2" fill="#FFFFFF">SZ</text>
 </svg>

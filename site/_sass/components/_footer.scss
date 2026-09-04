@@ -10,7 +10,7 @@
   position: relative;
 
   h5 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: "Noto Sans", "Noto Sans SC", sans-serif;
     font-size: 0.6875rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -20,7 +20,8 @@
     margin-top: 0;
   }
 
-  p, a {
+  p,
+  a {
     font-size: 0.8125rem;
     color: var(--text-secondary);
     line-height: 1.9;

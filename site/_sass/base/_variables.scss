@@ -3,23 +3,23 @@
 // =============================================================
 
 :root {
-  // Accent — a warm scholarly teal
-  --accent: #1a7a6d;
-  --accent-hover: #15655a;
-  --accent-light: rgba(26, 122, 109, 0.08);
+  // Accent — restrained academic blue
+  --accent: #174a66;
+  --accent-hover: #103b53;
+  --accent-light: rgba(23, 74, 102, 0.08);
 
-  // Light mode — warm parchment tones
-  --bg-primary: #f8f6f1;
-  --bg-secondary: #f0ece4;
+  // Light mode — clean paper white
+  --bg-primary: #ffffff;
+  --bg-secondary: #f7f8f9;
   --bg-card: #ffffff;
-  --text-primary: #2c2a25;
-  --text-secondary: #5c5850;
-  --text-muted: #8a857c;
-  --border-color: #e2ded6;
-  --shadow-sm: 0 1px 3px rgba(44, 42, 37, 0.06);
-  --shadow-md: 0 4px 12px rgba(44, 42, 37, 0.08);
-  --shadow-lg: 0 8px 24px rgba(44, 42, 37, 0.1);
-  --shadow-navbar: 0 1px 4px rgba(44, 42, 37, 0.1);
+  --text-primary: #17212b;
+  --text-secondary: #4f5b66;
+  --text-muted: #78828b;
+  --border-color: #e5e9ec;
+  --shadow-sm: 0 1px 2px rgba(23, 33, 43, 0.03);
+  --shadow-md: 0 2px 8px rgba(23, 33, 43, 0.05);
+  --shadow-lg: 0 5px 18px rgba(23, 33, 43, 0.08);
+  --shadow-navbar: 0 1px 4px rgba(23, 33, 43, 0.06);
 
   // Layout
   --container-max: 1100px;
@@ -37,10 +37,10 @@
   --space-16: 4rem;
 
   // Border radius
-  --radius-sm: 0.25rem;
-  --radius-md: 0.5rem;
-  --radius-lg: 0.75rem;
-  --radius-xl: 1rem;
+  --radius-sm: 0.2rem;
+  --radius-md: 0.35rem;
+  --radius-lg: 0.45rem;
+  --radius-xl: 0.55rem;
   --radius-full: 9999px;
 
   // Transitions
