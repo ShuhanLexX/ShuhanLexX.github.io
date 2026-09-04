@@ -7,7 +7,7 @@ permalink: /publications/
 
 ## Publications
 
-<p>Selected publications and research outputs. English renderings of titles originally published in Chinese are provided for international readers.</p>
+<p>Selected publications and research outputs. Chinese-language publications retain their original bibliographic titles; links are included only where a public record or official article page has been confirmed.</p>
 
 <input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
 

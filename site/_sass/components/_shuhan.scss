@@ -38,3 +38,225 @@
     margin: 0;
   }
 }
+
+.section-intro {
+  color: var(--text-secondary);
+  margin-bottom: var(--space-5);
+  max-width: 44rem;
+}
+
+.publication-feature-list {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.publication-feature {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: 10.5rem minmax(0, 1fr);
+  padding: var(--space-6);
+
+  + .publication-feature {
+    border-top: 1px solid var(--border-color);
+  }
+
+  @media (max-width: 680px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.publication-feature__preview {
+  align-items: center;
+  background: #f7fafb;
+  border: 1px solid #dce6eb;
+  border-radius: var(--radius-md);
+  color: var(--accent);
+  display: flex;
+  justify-content: center;
+  min-height: 8.5rem;
+  overflow: hidden;
+}
+
+.publication-feature__preview--figure img {
+  display: block;
+  height: 100%;
+  max-height: 11rem;
+  object-fit: contain;
+  width: 100%;
+}
+
+.publication-feature__preview--text {
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  text-align: center;
+
+  span {
+    font-family: Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1.2;
+  }
+
+  small {
+    color: var(--text-secondary);
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.55rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+}
+
+.publication-feature__body {
+  min-width: 0;
+
+  h3 {
+    font-size: 1.15rem;
+    line-height: 1.35;
+    margin: 0 0 var(--space-1);
+  }
+
+  h3 + .publication-feature__citation {
+    margin-top: calc(var(--space-1) * -1);
+  }
+
+  p {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin: var(--space-2) 0;
+  }
+}
+
+.publication-feature__eyebrow {
+  color: var(--accent);
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.61rem !important;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-top: 0 !important;
+}
+
+.publication-feature__authors,
+.publication-feature__citation {
+  color: var(--text-secondary);
+}
+
+.publication-feature__links,
+.publication-feature__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.publication-feature__links a,
+.publication-feature__tags span {
+  border-radius: 999px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.7rem;
+  line-height: 1;
+  padding: 0.45rem 0.65rem;
+}
+
+.publication-feature__links a {
+  background: #edf4f7;
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover {
+    background: var(--accent);
+    color: #fff;
+  }
+}
+
+.publication-feature__tags span {
+  background: #f5f7f8;
+  color: var(--text-secondary);
+}
+
+.figure-source-note {
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  margin: var(--space-3) 0 var(--space-10);
+}
+
+.academic-profile {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: minmax(0, 1.3fr) minmax(15rem, 0.7fr);
+  margin: var(--space-5) 0 var(--space-10);
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.academic-profile__timeline,
+.academic-profile__service {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.timeline-item {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: 5.7rem minmax(0, 1fr);
+  padding: var(--space-5);
+
+  + .timeline-item {
+    border-top: 1px solid var(--border-color);
+  }
+
+  > span {
+    color: var(--accent);
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding-top: 0.1rem;
+  }
+
+  h4 {
+    font-size: 0.98rem;
+    margin: 0 0 var(--space-1);
+  }
+
+  p {
+    color: var(--text-secondary);
+    font-size: 0.84rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+}
+
+.academic-profile__service {
+  padding: var(--space-5);
+
+  ul {
+    color: var(--text-secondary);
+    font-size: 0.82rem;
+    line-height: 1.55;
+    margin: var(--space-3) 0 var(--space-4);
+    padding-left: 1.15rem;
+  }
+
+  li + li {
+    margin-top: var(--space-2);
+  }
+
+  > a {
+    color: var(--accent);
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
