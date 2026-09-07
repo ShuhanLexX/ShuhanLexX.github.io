@@ -61,7 +61,7 @@ en:
     - date: "2026"
       text: Auto-ABM is under external review at NeurIPS 2026 FAST Workshop. The open-source workbench, demonstration, and Windows release are available.
       url: https://shuhanlexx.github.io/Auto-ABM/
-    - date: May 2026
+    - date: 14 May 2026
       text: The generative-agent policy evaluation study is available online first in Systems Engineering — Theory & Practice.
     - date: Jan 2026
       text: GPLab was published in the Journal of Artificial Societies and Social Simulation, 29(1), Article 6.
@@ -145,7 +145,7 @@ zh:
     - date: "2026"
       text: Auto-ABM 投稿 NeurIPS 2026 FAST Workshop，目前外审中；开源工作台、演示视频与 Windows 安装包已公开。
       url: https://shuhanlexx.github.io/Auto-ABM/
-    - date: 2026年5月
+    - date: 2026年5月14日
       text: 生成式代理模型驱动的政策效果评估研究于《系统工程理论与实践》网络首发。
     - date: 2026年1月
       text: GPLab 发表于 Journal of Artificial Societies and Social Simulation，第29卷第1期，第6篇。

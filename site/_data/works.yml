@@ -43,10 +43,10 @@
   featured: true
   year: 2026
   type: journal
-  title: 生成式代理模型驱动的政策效果评估新范式：以舆论—经济系统为例
+  title: 生成式代理模型驱动的政策效果评估新范式：以舆论-经济系统模拟为例
   original_lang: zh-CN
   translation:
-    en: "A New Paradigm for Policy Effect Evaluation Driven by Generative Agent Models: The Case of a Public Opinion–Economy System"
+    en: "A New Paradigm for Policy Effect Evaluation Driven by Generative Agent Models: A Simulation of a Public Opinion–Economy System"
   image: /images/policy-evaluation-framework.png
   image_alt:
     en: Author-provided framework figure connecting LLM social agents, economic and public-opinion subsystems, policy simulation, and outcome evaluation.
@@ -55,25 +55,27 @@
     en: Paper framework · Author-provided
     zh: 论文框架图 · 作者提供
   authors:
-    en: Shuhan Zhang et al.
-    zh: 张书含 等
+    en: Shuhan Zhang, Yinwang Ren
+    zh: 张书含、任银旺
   role:
     en: First & corresponding author
     zh: 第一作者、通讯作者
   venue:
-    en: 系统工程理论与实践 / Systems Engineering — Theory & Practice · May 2026
-    zh: 《系统工程理论与实践》· 2026年5月
+    en: 系统工程理论与实践 / Systems Engineering — Theory & Practice · 14 May 2026
+    zh: 《系统工程理论与实践》· 2026年5月14日网络首发
   status:
     en: Online first
     zh: 网络首发
   stage: published
   highlight:
-    en: Connects generative-agent policy simulation with real-world data and statistical validation in a coupled public opinion–economy system, examining the effectiveness of policy evaluation in a concrete setting.
-    zh: 以舆论—经济系统为例，将生成式代理政策模拟与真实数据、统计方法相结合，验证仿真平台在具体政策效果评估中的有效性。
+    en: Uses real-world data to assess agent behavior and simulates consumption-voucher policy in a coupled public opinion–economy system, examining heterogeneous group responses and multidimensional policy effects through statistical tests.
+    zh: 以真实数据检验社会智能体的政策响应，在舆论—经济系统中模拟消费券政策，通过统计检验考察不同群体的异质性响应与多维度政策效果。
   tags:
-    en: [Policy evaluation, Empirical validation, Social simulation]
-    zh: [政策效果评估, 经验验证, 社会仿真]
-  links: []
+    en: [Policy evaluation, Empirical validation, CSSCI]
+    zh: [政策效果评估, 经验验证, CSSCI]
+  links:
+    - label: { en: CNKI article, zh: 知网论文 }
+      url: https://kns.cnki.net/kcms2/article/abstract?v=HTCMX8yYpPH-GqPExiVIZEp6hbgAC5zR4mYjq6wZ_IebxWHHyfVxwakCjxcI1uwssVFxCCl0jZCWZjIo8r9xZeJ7iq1BWGQP24FwI-OSlTvXb757bGyuvTUObZDyb8I0AZW6CCvSy32zAVBHDi9XxK0i5DL8mCm-CHjIZczp2Yr8BGW_wy2DZw==&uniplatform=NZKPT&language=CHS
 - id: autoabm
   featured: true
   year: 2026
@@ -128,17 +130,21 @@
   authors: { en: Shuhan Zhang, zh: 张书含 }
   role: { en: Sole author, zh: 独作 }
   venue:
-    en: 中国土地 / China Land · 2022, No. 5
-    zh: 《中国土地》· 2022年第5期
+    en: 中国土地 / China Land · 2022(5), 23–24
+    zh: 《中国土地》· 2022年第5期，第23–24页
   status: { en: Published, zh: 已发表 }
   stage: published
   highlight:
-    en: Examines multiple safeguard mechanisms in collective land expropriation, extending my legal scholarship on institutions and the protection of rights.
-    zh: 探讨集体土地征收中的多元保障机制，关注制度安排与权利保障。
+    en: Examines safeguards for collective land expropriation through three connected dimensions—public interest, timely and adequate compensation, and public participation in the expropriation process.
+    zh: 从公共利益目的、及时足额补偿与征收程序中的公众参与三个维度，探讨集体土地征收的多元保障机制。
   tags:
     en: [Land expropriation, Rights protection]
     zh: [土地征收, 权利保障]
-  links: []
+  links:
+    - label: { en: CNKI article, zh: 知网论文 }
+      url: https://kns.cnki.net/kcms2/article/abstract?v=HTCMX8yYpPEQcabVLyDjOymCYojt_1Wqytns8Fdhx5Vpi3TCi5Pd2KVrd0QEBxCuApBi01asXnzdz07AuOo9u6R5nWhVdPKD2a5GcBWi0FmVxMIvRZVX9kPoCcroUltc6Au-qpUEfn_RIHsMI38n_4MDerxZFZlzp6k2RZkMR2JxV2o7JCzBpQ==&uniplatform=NZKPT&language=CHS
+    - label: { en: DOI, zh: DOI }
+      url: https://doi.org/10.13816/j.cnki.ISSN1002-9729.2022.05.07
 - id: data-sovereignty
   featured: false
   year: 2022
@@ -150,8 +156,8 @@
   authors: { en: Shuhan Zhang, zh: 张书含 }
   role: { en: Sole author, zh: 独作 }
   venue:
-    en: 哈尔滨学院学报 / Journal of Harbin University · 2022(11), 33–37
-    zh: 《哈尔滨学院学报》· 2022年第11期，第33–37页
+    en: 哈尔滨学院学报 / Journal of Harbin University · 2022, 43(11), 33–37
+    zh: 《哈尔滨学院学报》· 2022年第43卷第11期，第33–37页
   status: { en: Published, zh: 已发表 }
   stage: published
   highlight:
@@ -161,8 +167,8 @@
     en: [Data sovereignty, Personal information]
     zh: [数据主权, 个人信息保护]
   links:
-    - label: { en: Bibliographic record, zh: 文献记录 }
-      url: https://journal.yuanpingjia.com.cn/Journal/ArticleDetails/400853
+    - label: { en: CNKI article, zh: 知网论文 }
+      url: https://kns.cnki.net/kcms2/article/abstract?v=HTCMX8yYpPF5O3XAHtWkY3rCwcqG_o7I88FhBtiNWHrSSWDiZ3tF4EGRHciNLc0lpG1mm6uQRLOrKlQ578Sa2UWd8rKXvIrrY7V2qSYJmorW5ZW94Sng-hw_rw_efcyj-K-yIllTN678dAxJO3hyAOmQX7D0HTjeyUjNTHuDAJ02L6RxKXhrjQ==&uniplatform=NZKPT&language=CHS
 - id: common-prosperity
   featured: false
   year: 2023
