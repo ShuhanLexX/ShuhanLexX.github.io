@@ -1,0 +1,58 @@
+{% include site-locale.html %}
+<div class="academic-page" markdown="0">
+  <section class="scholar-hero" aria-labelledby="profile-name">
+    <img class="scholar-hero__mark" src="{{ site.photo | prepend: '/images/' | relative_url }}" alt="{{ t.name }}" width="116" height="116" />
+    <div class="scholar-hero__content">
+      <p class="profile-kicker">{{ t.kicker }}</p>
+      <h1 id="profile-name">{{ t.name }} <span class="scholar-hero__secondary">{{ t.secondary_name }}</span></h1>
+      <p class="scholar-hero__role">{{ t.role }}</p>
+      <p class="scholar-hero__institution">{{ t.institution }}</p>
+      <div class="scholar-hero__links">
+        <a href="https://github.com/ShuhanLexX" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="{{ locale_prefix | append: '/cv/' | relative_url }}">{{ t.nav_cv }} ↗</a>
+        <a href="#selected-research">{{ t.selected }} ↓</a>
+      </div>
+      <p class="scholar-hero__status"><span aria-hidden="true"></span>{{ t.availability }}</p>
+    </div>
+  </section>
+  <div class="home-introduction">
+    <p class="home-introduction__lead">{{ t.lead }}</p>
+    <p>{{ t.intro }}</p>
+  </div>
+  <section class="homepage-section" aria-labelledby="selected-research">
+    <div class="section-heading-row">
+      <div>
+        <h2 id="selected-research">{{ t.selected }}</h2>
+        <p>{{ t.selected_intro }}</p>
+      </div>
+      <a class="section-text-link" href="{{ locale_prefix | append: '/publications/' | relative_url }}">{{ t.all_publications }} ↗</a>
+    </div>
+    <div class="publication-feature-list">
+      {% for work in site.data.works %}{% if work.featured %}{% include work-card.html work=work %}{% endif %}{% endfor %}
+    </div>
+  </section>
+  <section class="homepage-section" aria-labelledby="research-interests">
+    <h2 id="research-interests">{{ t.research }}</h2>
+    <p class="research-question">{{ t.research_question }}</p>
+    {% include research-themes.html %}
+  </section>
+  <div class="homepage-section academic-profile-grid">{% include academic-profile.html %}</div>
+  <section class="homepage-section" aria-labelledby="further-scholarship">
+    <h2 id="further-scholarship">{{ t.other_works }}</h2>
+    <p>{{ t.other_intro }}</p>
+    <div class="publication-feature-list further-work-list">
+      {% for work in site.data.works %}{% unless work.featured %}{% include work-card.html work=work %}{% endunless %}{% endfor %}
+    </div>
+  </section>
+  <div class="homepage-section home-lower-grid">
+    <section>
+      <h2>{{ t.capabilities }}</h2>
+      <p>{{ t.capabilities_text }}</p>
+      <div class="skill-list">{% for tag in t.skill_tags %}<span>{{ tag }}</span>{% endfor %}</div>
+    </section>
+    <section>
+      <h2>{{ t.updates }}</h2>
+      {% include academic-news.html %}
+    </section>
+  </div>
+</div>

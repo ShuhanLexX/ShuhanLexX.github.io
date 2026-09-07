@@ -2,7 +2,7 @@
 # STEP 1: Your Identity (required)
 # ============================================================
 name: "Shuhan Zhang"
-title: "Doctoral Researcher in Law & Computational Social Science"
+title: "Researcher in Law & Computational Social Science"
 institution: "School of Law, Zhengzhou University"
 email: ""
 photo: shuhan-profile-mark.svg
@@ -23,7 +23,7 @@ links:
 # STEP 3: Site Settings
 # ============================================================
 accent_color: "#174A66"
-dark_mode: false
+dark_mode: true
 description: "Academic website of Shuhan Zhang, working on legislative studies, generative agent-based social simulation, and policy evaluation."
 baseurl: ""
 url: "https://shuhanlexx.github.io"

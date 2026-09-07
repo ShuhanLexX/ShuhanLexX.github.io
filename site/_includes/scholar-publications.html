@@ -1,0 +1,23 @@
+{% include site-locale.html %}
+<div class="academic-page" markdown="0">
+  <header class="page-introduction">
+    <p class="profile-kicker">{{ t.name }}</p>
+    <h1>{{ t.nav_publications }}</h1>
+    <p>{{ t.pub_intro }}</p>
+  </header>
+  <label class="filter-label" for="pubSearch">{{ t.filter }}</label>
+  <input type="search" class="pub-search" id="pubSearch" placeholder="GPLab, Auto-ABM, 2022…" autocomplete="off" />
+  <p id="pubNoResults" role="status" hidden>{{ t.no_results }}</p>
+  <section class="homepage-section publication-group">
+    <h2>{{ t.selected }}</h2>
+    <div class="publication-feature-list">
+      {% for work in site.data.works %}{% if work.featured %}{% include work-card.html work=work %}{% endif %}{% endfor %}
+    </div>
+  </section>
+  <section class="homepage-section publication-group">
+    <h2>{{ t.other_works }}</h2>
+    <div class="publication-feature-list">
+      {% for work in site.data.works %}{% unless work.featured %}{% include work-card.html work=work %}{% endunless %}{% endfor %}
+    </div>
+  </section>
+</div>

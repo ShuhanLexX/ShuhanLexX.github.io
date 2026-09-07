@@ -1,0 +1,168 @@
+en:
+  name: Shuhan Zhang
+  secondary_name: 张书含
+  role: Researcher in Law & Computational Social Science
+  institution: School of Law, Zhengzhou University
+  description: Shuhan Zhang researches legislative studies, LLM-based social simulation, and legislation and policy evaluation. Explore GPLab, generative-agent policy evaluation, and Auto-ABM.
+  kicker: LAW · SOCIAL SIMULATION · GENERATIVE AI
+  lead: Making legislative and policy effects observable, comparable, and explainable.
+  intro: My research brings legislative studies and constitutional and administrative law into dialogue with large language models and social simulation. I develop general-purpose, reproducible platforms for evaluating complex legislative and policy scenarios, comparing alternatives, and improving policy design.
+  availability: Open to academic and research opportunities
+  nav_home: Home
+  nav_research: Research
+  nav_publications: Publications
+  nav_cv: CV
+  nav_label: Main navigation
+  menu: Open navigation
+  skip: Skip to content
+  language_label: 切换为中文
+  language: 中文
+  theme_label: Switch between light and dark themes
+  theme_light: Switch to light theme
+  theme_dark: Switch to dark theme
+  selected: Selected Research
+  selected_intro: Three connected contributions, from policy simulation to empirical evaluation and reproducible modeling tools.
+  all_publications: All publications
+  highlight: Contribution
+  figure: View full image
+  research: Research Interests
+  research_question: How can we evaluate the likely effects of legislation and policy before implementation?
+  themes:
+    - title: Legislative studies
+      text: Constitutional foundations, legislative design, and the institutional mechanisms through which legal rules shape social outcomes.
+    - title: LLM-based social simulation
+      text: Generative agents and interacting social subsystems for studying heterogeneous behavior and complex social dynamics.
+    - title: Legislation & policy evaluation
+      text: Reproducible policy experiments, real-world data, and statistical validation to compare scenarios and improve proposed interventions.
+  education: Education
+  advisor: "Supervisor: Prof. Lianying Miao"
+  degrees:
+    - dates: Sep 2020 – Jun 2026
+      degree: LL.M. & Ph.D. in Law
+      subject: Constitutional and Administrative Law · Integrated master's–doctoral program
+      institution: School of Law, Zhengzhou University
+      advisor: true
+    - dates: Sep 2016 – Jun 2020
+      degree: LL.B. in Law
+      subject: Undergraduate study in law
+      institution: School of Law, Zhengzhou University
+  service: Academic Service
+  reviewer: Journal reviewer
+  appointment: Research appointment
+  center: Research Center for Recording and Review, Standing Committee of the Henan Provincial People's Congress
+  researcher: Researcher
+  other_works: Further Scholarship
+  other_intro: Legal scholarship on land expropriation, cross-border personal information governance, and the constitutional foundations of common prosperity.
+  capabilities: Research Approach & Skills
+  capabilities_text: I combine data-driven empirical analysis with programming and the application of large language models to social science. My experience in interdisciplinary research, platform development, and team collaboration supports sustained research output and the development of major research proposals.
+  skill_tags: [Empirical analysis, Generative AI for social science, Reproducible simulation, Interdisciplinary collaboration]
+  updates: Recent Updates
+  news:
+    - date: "2026"
+      text: Auto-ABM is under external review at NeurIPS 2026 FAST Workshop. The open-source workbench, demonstration, and Windows release are available.
+      url: https://shuhanlexx.github.io/Auto-ABM/
+    - date: May 2026
+      text: The generative-agent policy evaluation study is available online first in Systems Engineering — Theory & Practice.
+    - date: Jan 2026
+      text: GPLab was published in the Journal of Artificial Societies and Social Simulation, 29(1), Article 6.
+      url: https://www.jasss.org/29/1/6.html
+  cv_title: Curriculum Vitae
+  cv_intro: Legal scholarship, computational social science, and reproducible research infrastructure.
+  print_cv: Print / save as PDF
+  pub_intro: Published articles, a collected paper, and current work under review. Original publication titles are retained; translated subtitles are provided for readers.
+  filter: Filter by title, topic, or year
+  no_results: No matching publications.
+  journal: Journal article
+  manuscript: Manuscript under review
+  collection: Collected paper
+  research_intro: My research develops a connected workflow for studying policy as a complex social process. Legal questions guide simulation design; empirical data help assess the results; reusable software makes the workflow accessible and reproducible.
+  research_work: Research in Practice
+  footer_about: Academic profile
+  footer_links: Research & software
+  footer_contact: Connect
+  footer_note: Legislation · Social simulation · Policy evaluation
+  back_top: Back to top
+zh:
+  name: 张书含
+  secondary_name: Shuhan Zhang
+  role: 法学与计算社会科学研究者
+  institution: 郑州大学法学院
+  description: 张书含的学术主页，研究方向为立法学、大模型社会模拟、立法与政策评估。代表作包括 GPLab、生成式代理模型驱动的政策效果评估及 Auto-ABM。
+  kicker: 法学 · 社会模拟 · 生成式人工智能
+  lead: 让立法与政策的效果可观察、可比较、可解释。
+  intro: 我的研究聚焦于生成式代理模型驱动的社会仿真在立法与政策效果评估中的应用，将立法学、宪法与行政法学研究与大语言模型、社会模拟相结合。我已构建具有可复现性与通用性的政策模拟与评估平台，支持复杂立法与政策情景的效果评估、对比实验与方案优化。
+  availability: 寻求高校及科研岗位机会
+  nav_home: 首页
+  nav_research: 研究方向
+  nav_publications: 学术成果
+  nav_cv: 学术履历
+  nav_label: 主导航
+  menu: 展开导航
+  skip: 跳转至正文
+  language_label: Switch to English
+  language: EN
+  theme_label: 切换浅色与深色主题
+  theme_light: 切换为白色主题
+  theme_dark: 切换为深色主题
+  selected: 代表性研究
+  selected_intro: 从政策仿真框架、经验验证到可复现建模工具，构建相互衔接的研究体系。
+  all_publications: 查看全部成果
+  highlight: 研究贡献
+  figure: 查看完整图片
+  research: 研究方向
+  research_question: 如何在立法与政策实施前，更好地评估其可能产生的社会效果？
+  themes:
+    - title: 立法学
+      text: 关注立法的宪法基础、制度设计，以及法律规则影响社会运行与公共治理的制度机制。
+    - title: 大模型社会模拟
+      text: 构建生成式社会代理与相互关联的社会子系统，研究异质性行为与复杂社会动态。
+    - title: 立法与政策评估
+      text: 将可复现的政策实验与真实数据、统计验证相结合，支持情景比较与政策方案优化。
+  education: 教育经历
+  advisor: 导师：苗连营 教授
+  degrees:
+    - dates: 2020.09 – 2026.06
+      degree: 法学硕士、博士（硕博连读）
+      subject: 宪法与行政法学
+      institution: 郑州大学法学院
+      advisor: true
+    - dates: 2016.09 – 2020.06
+      degree: 法学学士
+      subject: 法学
+      institution: 郑州大学法学院
+  service: 学术兼职
+  reviewer: 期刊审稿人
+  appointment: 学术任职
+  center: 河南省人大常委会备案审查研究中心
+  researcher: 研究员
+  other_works: 其他学术成果
+  other_intro: 围绕土地征收、个人信息跨境治理与共同富裕的宪法基础开展法学研究。
+  capabilities: 研究方法与能力
+  capabilities_text: 我擅长基于数据的实证分析，具备一定编程基础，关注大模型技术在社会科学研究中的应用。跨学科科研实践、平台研发与团队协作经验，为持续产出高质量成果及重大科研项目申请提供了扎实基础。
+  skill_tags: [数据实证分析, 大模型社会科学应用, 可复现社会仿真, 跨学科团队协作]
+  updates: 学术动态
+  news:
+    - date: "2026"
+      text: Auto-ABM 投稿 NeurIPS 2026 FAST Workshop，目前外审中；开源工作台、演示视频与 Windows 安装包已公开。
+      url: https://shuhanlexx.github.io/Auto-ABM/
+    - date: 2026年5月
+      text: 生成式代理模型驱动的政策效果评估研究于《系统工程理论与实践》网络首发。
+    - date: 2026年1月
+      text: GPLab 发表于 Journal of Artificial Societies and Social Simulation，第29卷第1期，第6篇。
+      url: https://www.jasss.org/29/1/6.html
+  cv_title: 学术履历
+  cv_intro: 立足法学，连接计算社会科学与可复现研究工具。
+  print_cv: 打印 / 保存为 PDF
+  pub_intro: 已发表论文、论文集收录文章与在审研究。保留论文原始题名，并提供译名辅助阅读。
+  filter: 按题名、主题或年份筛选
+  no_results: 暂无匹配的成果。
+  journal: 期刊论文
+  manuscript: 在审论文
+  collection: 论文集收录
+  research_intro: 我的研究旨在形成一套将政策视为复杂社会过程的研究方法：以法律问题引导仿真设计，以经验数据检验模拟结果，再通过可复用的软件工具提升研究的可及性与可复现性。
+  research_work: 研究实践
+  footer_about: 学术简介
+  footer_links: 研究与软件
+  footer_contact: 联系与交流
+  footer_note: 立法学 · 社会模拟 · 政策评估
+  back_top: 返回顶部

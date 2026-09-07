@@ -1,0 +1,40 @@
+{% assign work = include.work %}
+<article class="publication-feature{% unless work.featured %} publication-feature--compact{% endunless %}" id="{{ work.id }}" data-pub-searchable>
+  {% if work.image %}
+  <figure class="publication-feature__figure">
+    <a
+      class="publication-feature__preview"
+      href="{{ work.image | relative_url }}"
+      target="_blank"
+      rel="noopener"
+      aria-label="{{ t.figure }} — {{ work.title | escape }}"
+    >
+      <img src="{{ work.image | relative_url }}" alt="{{ work.image_alt[lang] | escape }}" loading="lazy" decoding="async" />
+      <span class="figure-expand" aria-hidden="true">↗</span>
+    </a>
+    <figcaption>{{ work.image_source[lang] }}</figcaption>
+  </figure>
+  {% endif %}
+  <div class="publication-feature__body">
+    <div class="publication-feature__meta">
+      <span class="publication-feature__eyebrow">{{ work.year }} · {{ t[work.type] }}</span>
+      <span class="work-status work-status--{{ work.stage }}">{{ work.status[lang] }}</span>
+    </div>
+    <h3 lang="{{ work.original_lang }}">{{ work.title }}</h3>
+    {% if work.translation[lang] %}
+    <p class="publication-feature__translation">{{ work.translation[lang] }}</p>
+    {% endif %}
+    <p class="publication-feature__authors">
+      {{ work.authors[lang] }}{% if work.role[lang] %}<span class="author-role">{{ work.role[lang] }}</span>{% endif %}
+    </p>
+    <p class="publication-feature__citation">{{ work.venue[lang] }}</p>
+    <p class="publication-feature__highlight"><strong>{{ t.highlight }}:</strong> {{ work.highlight[lang] }}</p>
+    {% if work.links.size > 0 %}
+    <div class="publication-feature__links">
+      {% for link in work.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label[lang] }} <span aria-hidden="true">↗</span></a
+      >{% endfor %}
+    </div>
+    {% endif %}
+    <div class="publication-feature__tags">{% for tag in work.tags[lang] %}<span>{{ tag }}</span>{% endfor %}</div>
+  </div>
+</article>

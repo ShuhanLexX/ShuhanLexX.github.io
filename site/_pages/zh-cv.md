@@ -1,10 +1,10 @@
 ---
-title: "CV"
+title: "学术履历"
 layout: gridlay
 sitemap: true
-permalink: /cv/
-alternate_url: /zh/cv/
-lang: en
+permalink: /zh/cv/
+alternate_url: /cv/
+lang: zh
 page_kind: cv
 ---
 

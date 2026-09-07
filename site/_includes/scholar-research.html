@@ -1,0 +1,20 @@
+{% include site-locale.html %}
+<div class="academic-page" markdown="0">
+  <header class="page-introduction">
+    <p class="profile-kicker">{{ t.name }}</p>
+    <h1>{{ t.research }}</h1>
+    <p>{{ t.research_intro }}</p>
+  </header>
+  {% include research-themes.html %}
+  <section class="homepage-section">
+    <h2>{{ t.research_work }}</h2>
+    <div class="publication-feature-list">
+      {% for work in site.data.works %}{% if work.featured %}{% include work-card.html work=work %}{% endif %}{% endfor %}
+    </div>
+  </section>
+  <section class="homepage-section">
+    <h2>{{ t.capabilities }}</h2>
+    <p>{{ t.capabilities_text }}</p>
+    <div class="skill-list">{% for tag in t.skill_tags %}<span>{{ tag }}</span>{% endfor %}</div>
+  </section>
+</div>

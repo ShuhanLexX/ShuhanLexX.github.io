@@ -1,34 +1,15 @@
 <footer class="site-footer">
-  <div class="footer-grid">
+  <div class="scholar-footer">
     <div>
-      <h5>About</h5>
-      <p>
-        {{ site.name }}<br>
-        {{ site.title }}<br>
-        {{ site.institution }}
-      </p>
+      <strong>{{ t.name }}</strong>
+      <p>{{ t.footer_note }}</p>
     </div>
-    <div>
-      <h5>Contact</h5>
-      <p>
-        {% if site.email and site.email != "" %}<a href="mailto:{{ site.email }}"><i class="fa-solid fa-envelope"></i> {{ site.email }}</a><br>{% endif %}
-        {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}"><i class="fa-brands fa-github"></i> GitHub</a><br>{% endif %}
-      </p>
+    <div class="scholar-footer__links">
+      <a href="{{ locale_prefix | append: '/cv/' | relative_url }}">{{ t.nav_cv }}</a>
+      <a href="https://github.com/ShuhanLexX" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://shuhanlexx.github.io/Auto-ABM/" target="_blank" rel="noopener">Auto-ABM ↗</a>
     </div>
-    <div>
-      <h5>Research</h5>
-      <p>
-        <a href="https://www.jasss.org/29/1/6.html"><i class="fa-solid fa-arrow-up-right-from-square"></i> GPLab article</a><br>
-        <a href="https://github.com/SmartLegislation/GPLab"><i class="fa-brands fa-github"></i> GPLab code</a>
-      </p>
-    </div>
-  </div>
-  <div class="footer-grid">
-    <div class="footer-copyright" style="grid-column: 1 / -1;">
-      &copy; {{ "now" | date: "%Y" }} {{ site.name | escape }}
-    </div>
+    <small>&copy; {{ "now" | date: "%Y" }} {{ t.name }}</small>
   </div>
 </footer>
-
-<script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
-<script src="{{ "/assets/js/site.min.js" | relative_url }}"></script>
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>

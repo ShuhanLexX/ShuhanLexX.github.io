@@ -1,0 +1,8 @@
+<ul class="news-list">
+  {% for item in t.news %}
+  <li>
+    <span>{{ item.date }}</span>
+    <p>{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.text }}</a>{% else %}{{ item.text }}{% endif %}</p>
+  </li>
+  {% endfor %}
+</ul>

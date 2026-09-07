@@ -1,0 +1,24 @@
+<section class="profile-section" aria-labelledby="education-heading">
+  <h2 id="education-heading">{{ t.education }}</h2>
+  <div class="education-list">
+    {% for degree in t.degrees %}
+    <article class="education-item">
+      <p class="education-item__dates">{{ degree.dates }}</p>
+      <h3>{{ degree.degree }}</h3>
+      <p>{{ degree.subject }}</p>
+      <p>{{ degree.institution }}</p>
+      {% if degree.advisor %}
+      <p class="education-item__advisor">{{ t.advisor }}</p>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+<section class="profile-section" aria-labelledby="service-heading">
+  <h2 id="service-heading">{{ t.service }}</h2>
+  <ul class="academic-service-list">
+    <li><span>{{ t.reviewer }}</span><strong>Information Processing &amp; Management</strong><small>IPM</small></li>
+    <li><span>{{ t.reviewer }}</span><strong>Journal of Artificial Societies and Social Simulation</strong><small>JASSS</small></li>
+    <li><span>{{ t.appointment }} · {{ t.researcher }}</span><strong>{{ t.center }}</strong></li>
+  </ul>
+</section>

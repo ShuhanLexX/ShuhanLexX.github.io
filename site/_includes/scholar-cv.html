@@ -1,0 +1,30 @@
+{% include site-locale.html %}
+<div class="academic-page cv-page" markdown="0">
+  <header class="page-introduction">
+    <p class="profile-kicker">{{ t.cv_title }}</p>
+    <h1>{{ t.name }} <span class="scholar-hero__secondary">{{ t.secondary_name }}</span></h1>
+    <p>{{ t.cv_intro }}</p>
+    <button class="print-cv" type="button" id="printCV">{{ t.print_cv }} ↗</button>
+  </header>
+  <div class="homepage-section academic-profile-grid">{% include academic-profile.html %}</div>
+  <section class="homepage-section">
+    <h2>{{ t.research }}</h2>
+    {% include research-themes.html %}
+  </section>
+  <section class="homepage-section">
+    <h2>{{ t.selected }}</h2>
+    <div class="publication-feature-list">
+      {% for work in site.data.works %}{% if work.featured %}{% include work-card.html work=work %}{% endif %}{% endfor %}
+    </div>
+  </section>
+  <section class="homepage-section">
+    <h2>{{ t.other_works }}</h2>
+    <div class="publication-feature-list">
+      {% for work in site.data.works %}{% unless work.featured %}{% include work-card.html work=work %}{% endunless %}{% endfor %}
+    </div>
+  </section>
+  <section class="homepage-section">
+    <h2>{{ t.capabilities }}</h2>
+    <p>{{ t.capabilities_text }}</p>
+  </section>
+</div>

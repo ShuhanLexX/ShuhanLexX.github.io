@@ -1,10 +1,10 @@
 ---
-title: "Publications"
+title: "学术成果"
 layout: gridlay
 sitemap: true
-permalink: /publications/
-alternate_url: /zh/publications/
-lang: en
+permalink: /zh/publications/
+alternate_url: /publications/
+lang: zh
 page_kind: publications
 ---
 

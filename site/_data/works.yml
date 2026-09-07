@@ -1,0 +1,186 @@
+- id: gplab
+  featured: true
+  year: 2026
+  type: journal
+  title: "GPLab: A Generative Agent-Based Framework for Policy Simulation and Evaluation"
+  original_lang: en
+  translation:
+    zh: GPLab：用于政策模拟与评估的生成式代理框架
+  image: /images/gplab-framework-original.png
+  image_alt:
+    en: Original GPLab framework figure showing social agents, social subsystems, and simulation and evaluation.
+    zh: GPLab 原始框架图，展示社会代理、社会子系统与模拟评估层。
+  image_source:
+    en: Original framework · JASSS
+    zh: 论文原始框架图 · JASSS
+  authors:
+    en: Shuhan Zhang, Zifan Peng, Yinwang Ren
+    zh: Shuhan Zhang, Zifan Peng, Yinwang Ren
+  role:
+    en: First & corresponding author
+    zh: 第一作者、通讯作者
+  venue:
+    en: Journal of Artificial Societies and Social Simulation · 29(1), Article 6 · 2026
+    zh: Journal of Artificial Societies and Social Simulation · 2026年第29卷第1期，第6篇
+  status:
+    en: Published
+    zh: 已发表
+  stage: published
+  highlight:
+    en: A general-purpose framework connecting LLM-driven social agents, modular social subsystems, and an iterative simulation–evaluation loop to support policy scenario comparison and refinement.
+    zh: 将大模型驱动的社会代理、模块化社会子系统与模拟—评估循环相结合，为复杂政策情景的比较与优化提供通用性仿真框架。
+  tags:
+    en: [Generative agents, Policy simulation, Open source]
+    zh: [生成式代理, 政策仿真, 开源框架]
+  links:
+    - label: { en: Article, zh: 期刊全文 }
+      url: https://www.jasss.org/29/1/6.html
+    - label: { en: DOI, zh: DOI }
+      url: https://doi.org/10.18564/jasss.5933
+    - label: { en: Code, zh: 开源代码 }
+      url: https://github.com/SmartLegislation/GPLab
+- id: generative-policy
+  featured: true
+  year: 2026
+  type: journal
+  title: 生成式代理模型驱动的政策效果评估新范式：以舆论—经济系统为例
+  original_lang: zh-CN
+  translation:
+    en: "A New Paradigm for Policy Effect Evaluation Driven by Generative Agent Models: The Case of a Public Opinion–Economy System"
+  image: /images/policy-evaluation-framework.png
+  image_alt:
+    en: Author-provided framework figure connecting LLM social agents, economic and public-opinion subsystems, policy simulation, and outcome evaluation.
+    zh: 作者提供的论文框架图：大模型社会智能体、经济与舆论子系统、政策模拟及政策效果评估。
+  image_source:
+    en: Paper framework · Author-provided
+    zh: 论文框架图 · 作者提供
+  authors:
+    en: Shuhan Zhang et al.
+    zh: 张书含 等
+  role:
+    en: First & corresponding author
+    zh: 第一作者、通讯作者
+  venue:
+    en: 系统工程理论与实践 / Systems Engineering — Theory & Practice · May 2026
+    zh: 《系统工程理论与实践》· 2026年5月
+  status:
+    en: Online first
+    zh: 网络首发
+  stage: published
+  highlight:
+    en: Connects generative-agent policy simulation with real-world data and statistical validation in a coupled public opinion–economy system, examining the effectiveness of policy evaluation in a concrete setting.
+    zh: 以舆论—经济系统为例，将生成式代理政策模拟与真实数据、统计方法相结合，验证仿真平台在具体政策效果评估中的有效性。
+  tags:
+    en: [Policy evaluation, Empirical validation, Social simulation]
+    zh: [政策效果评估, 经验验证, 社会仿真]
+  links: []
+- id: autoabm
+  featured: true
+  year: 2026
+  type: manuscript
+  title: "Auto-ABM: A Simulation-First Framework for Trace-Grounded and Reproducible Agent-Based Modeling"
+  original_lang: en
+  translation:
+    zh: Auto-ABM：以仿真为先、以运行轨迹为证据的可复现代理建模框架
+  image: /images/autoabm-workbench.png
+  image_alt:
+    en: Actual AutoABM workbench showing model proposals, a running agent network, parameters, and metric charts.
+    zh: AutoABM 真实工作台界面，展示模型方案、代理网络运行、参数控制与指标图表。
+  image_source:
+    en: Actual interface · AutoABM
+    zh: 真实工作台界面 · AutoABM
+  authors:
+    en: Shuhan Zhang
+    zh: 张书含
+  role:
+    en: Sole author
+    zh: 独作
+  venue:
+    en: Submitted to NeurIPS 2026 FAST Workshop
+    zh: 投稿 NeurIPS 2026 FAST Workshop
+  status:
+    en: Under external review
+    zh: 外审中
+  stage: review
+  highlight:
+    en: A simulation-first research workbench that links modeling, experiments, and explanations to recorded execution traces, with seed-reproducible runs and exportable reproduction packages including ODD documentation.
+    zh: 以仿真为核心组织建模、实验与解释，将结论关联到真实运行轨迹，支持固定随机种子的可复现运行，以及包含 ODD 模型描述文档的复现包导出。
+  tags:
+    en: [Trace-grounded explanation, Reproducible ABM, Research software]
+    zh: [运行轨迹证据, 可复现代理建模, 科研软件]
+  links:
+    - label: { en: Project website, zh: 项目主页 }
+      url: https://shuhanlexx.github.io/Auto-ABM/
+    - label: { en: Watch demo, zh: 观看演示 }
+      url: https://shuhanlexx.github.io/Auto-ABM/#demo
+    - label: { en: Source code, zh: 开源代码 }
+      url: https://github.com/ShuhanLexX/Auto-ABM
+    - label: { en: Download / Releases, zh: 下载与版本发布 }
+      url: https://github.com/ShuhanLexX/Auto-ABM/releases
+- id: land
+  featured: false
+  year: 2022
+  type: journal
+  title: 集体土地征收多元保障机制探讨
+  original_lang: zh-CN
+  translation:
+    en: Exploring Multiple Safeguard Mechanisms in Collective Land Expropriation
+  authors: { en: Shuhan Zhang, zh: 张书含 }
+  role: { en: Sole author, zh: 独作 }
+  venue:
+    en: 中国土地 / China Land · 2022, No. 5
+    zh: 《中国土地》· 2022年第5期
+  status: { en: Published, zh: 已发表 }
+  stage: published
+  highlight:
+    en: Examines multiple safeguard mechanisms in collective land expropriation, extending my legal scholarship on institutions and the protection of rights.
+    zh: 探讨集体土地征收中的多元保障机制，关注制度安排与权利保障。
+  tags:
+    en: [Land expropriation, Rights protection]
+    zh: [土地征收, 权利保障]
+  links: []
+- id: data-sovereignty
+  featured: false
+  year: 2022
+  type: journal
+  title: 数据主权背景下个人信息跨境流动治理与完善
+  original_lang: zh-CN
+  translation:
+    en: Governance and Improvement of Cross-Border Personal Information Flows in the Context of Data Sovereignty
+  authors: { en: Shuhan Zhang, zh: 张书含 }
+  role: { en: Sole author, zh: 独作 }
+  venue:
+    en: 哈尔滨学院学报 / Journal of Harbin University · 2022(11), 33–37
+    zh: 《哈尔滨学院学报》· 2022年第11期，第33–37页
+  status: { en: Published, zh: 已发表 }
+  stage: published
+  highlight:
+    en: Examines cross-border personal information governance through the lens of data sovereignty, connecting national security, the digital economy, and the protection of individual rights.
+    zh: 从数据主权视角讨论个人信息跨境流动治理，关注国家安全、数字经济发展与个人权利保护之间的关系。
+  tags:
+    en: [Data sovereignty, Personal information]
+    zh: [数据主权, 个人信息保护]
+  links:
+    - label: { en: Bibliographic record, zh: 文献记录 }
+      url: https://journal.yuanpingjia.com.cn/Journal/ArticleDetails/400853
+- id: common-prosperity
+  featured: false
+  year: 2023
+  type: collection
+  title: 共同富裕的宪法向度及其立法实现
+  original_lang: zh-CN
+  translation:
+    en: The Constitutional Dimension of Common Prosperity and Its Legislative Realization
+  authors: { en: Shuhan Zhang, zh: 张书含 }
+  venue:
+    en: 新时代立法理论和实践的创新与发展论文集 · Legislative Studies Association of the China Law Society · 2023
+    zh: 中国法学会立法学研究会《新时代立法理论和实践的创新与发展论文集》· 2023年
+  status: { en: Included in collected papers, zh: 论文集收录 }
+  stage: published
+  highlight:
+    en: Considers common prosperity from a constitutional perspective and explores its realization through legislation.
+    zh: 从宪法视角考察共同富裕，并探讨其立法实现路径。
+  tags:
+    en: [Constitutional law, Legislative studies]
+    zh: [宪法学, 立法学]
+  links: []

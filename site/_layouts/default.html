@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+{% include site-locale.html %}
+<html lang="{% if lang == 'zh' %}zh-CN{% else %}en{% endif %}" data-bs-theme="light">
   {% include head.html %}
-
-  <body>
-
+  <body data-back-top="{{ t.back_top }}">
+    <a class="skip-link" href="#main-content">{{ t.skip }}</a>
     {% include header.html %}
-
-    <main class="site-container">
-      {{ content }}
-    </main>
-
+    <main class="site-container" id="main-content">{{ content }}</main>
     {% include footer.html %}
-
   </body>
-
 </html>

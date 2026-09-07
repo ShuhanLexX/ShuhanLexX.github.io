@@ -1,10 +1,10 @@
 ---
-title: "Research"
+title: "研究方向"
 layout: gridlay
 sitemap: true
-permalink: /research/
-alternate_url: /zh/research/
-lang: en
+permalink: /zh/research/
+alternate_url: /research/
+lang: zh
 page_kind: research
 ---
 
