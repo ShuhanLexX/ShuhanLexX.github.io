@@ -1,239 +1,271 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+   
 
+<html lang="en" data-bs-theme="light">
   <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Research - Shuhan Zhang</title>
-  <meta name="description" content="Academic website of Shuhan Zhang, working on legislative studies, generative agent-based social simulation, and policy evaluation.">
-
-  <!-- Open Graph / Social Sharing -->
-  <meta property="og:title" content="Research">
-  <meta property="og:description" content="Academic website of Shuhan Zhang, working on legislative studies, generative agent-based social simulation, and policy evaluation.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://shuhanlexx.github.io/research/">
-  <meta property="og:image" content="https://shuhanlexx.github.io/images/shuhan-profile-mark.svg">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Research">
-  <meta name="twitter:description" content="Academic website of Shuhan Zhang, working on legislative studies, generative agent-based social simulation, and policy evaluation.">
-  <meta name="twitter:image" content="https://shuhanlexx.github.io/images/shuhan-profile-mark.svg">
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
-
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="https://shuhanlexx.github.io/research/">
-  <link rel="icon" href="https://shuhanlexx.github.io/favicon.svg" type="image/svg+xml">
-  <link rel="alternate icon" href="https://shuhanlexx.github.io/favicon.ico">
-  <link rel="alternate" type="application/rss+xml" title="Shuhan Zhang" href="https://shuhanlexx.github.io/feed.xml">
-
-  <!-- Accent color from config -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Research · Shuhan Zhang</title>
+  <meta name="description" content="Shuhan Zhang researches legislative studies, LLM-based social simulation, and legislation and policy evaluation. Explore GPLab, generative-agent policy evaluation, and Auto-ABM." />
+  <link rel="canonical" href="https://shuhanlexx.github.io/research/" />
   
-  <style>
-    :root { --accent: #174A66; --accent-hover: #103b53; }
-  </style>
+  <link rel="alternate" hreflang="en" href="https://shuhanlexx.github.io/research/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://shuhanlexx.github.io/zh/research/" />
+  <link
+    rel="alternate"
+    hreflang="x-default"
+    href="https://shuhanlexx.github.io/research/"
+  />
   
-
-  <!-- Dark mode: apply saved theme before paint to prevent flash -->
+  <meta property="og:title" content="Shuhan Zhang · Research" />
+  <meta property="og:description" content="Shuhan Zhang researches legislative studies, LLM-based social simulation, and legislation and policy evaluation. Explore GPLab, generative-agent policy evaluation, and Auto-ABM." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://shuhanlexx.github.io/research/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="https://shuhanlexx.github.io/images/gplab-framework-original.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Shuhan Zhang" />
+  <meta name="twitter:description" content="Shuhan Zhang researches legislative studies, LLM-based social simulation, and legislation and policy evaluation. Explore GPLab, generative-agent policy evaluation, and Auto-ABM." />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/assets/main.css" />
   <script>
-    (function() {
-      var darkMode = true;
-      if (!darkMode) return;
-      var saved = localStorage.getItem('theme');
-      if (saved) {
-        document.documentElement.setAttribute('data-bs-theme', saved);
-      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.documentElement.setAttribute('data-bs-theme', 'dark');
-      }
+    (function () {
+      var theme = "light";
+      try {
+        if (localStorage.getItem("shuhan-theme") === "dark") theme = "dark";
+      } catch (error) {}
+      document.documentElement.setAttribute("data-bs-theme", theme);
     })();
   </script>
-
-  
   
 
-  
-
-  <script>
-MathJax = {
-    tex: {
-    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
-    tags: 'ams'  // should be 'ams', 'none', or 'all' }. This line makes the equation numbering and labeling work
-    }, 
-    svg: {
-    fontCache: 'global'
-    }
-};
-</script>
-<script
-    type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script> 
-
-  <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Research",
-    "url": "https://shuhanlexx.github.io/research/",
-    "description": "Academic website of Shuhan Zhang, working on legislative studies, generative agent-based social simulation, and policy evaluation.",
-    "author": {
-      "@type": "Person",
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
       "name": "Shuhan Zhang",
-      "jobTitle": "Doctoral Researcher in Law &amp; Computational Social Science",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "School of Law, Zhengzhou University"
+      "url": "https://shuhanlexx.github.io/research/",
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Shuhan Zhang",
+        "alternateName": "张书含",
+        "url": "https://shuhanlexx.github.io/",
+        "sameAs": ["https://github.com/ShuhanLexX"],
+        "alumniOf": {"@type": "CollegeOrUniversity", "name": "Zhengzhou University"},
+        "knowsAbout": ["Legislative studies", "LLM-based social simulation", "Policy evaluation"]
       }
     }
-  }
   </script>
 </head>
 
-
-  <body>
-
-    <nav class="navbar sticky-top navbar-expand-md">
-  <div class="container" style="max-width: var(--container-max)">
-    <a class="navbar-brand" href="https://shuhanlexx.github.io/">
-      <img
-        src="https://shuhanlexx.github.io/favicon.svg"
-        width="24"
-        height="24"
-        class="d-inline-block align-text-top"
-        alt=""
-        style="border-radius: 5px"
-      />
-      Shuhan Zhang
-    </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
+  <body data-back-top="Back to top">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+  <nav class="site-navigation" aria-label="Main navigation">
+    <a class="site-wordmark" href="/"
+      ><img src="/favicon.svg" width="25" height="25" alt="" />Shuhan Zhang</a
     >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="https://shuhanlexx.github.io/">Home</a>
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link active" href="https://shuhanlexx.github.io/research"
-            >Research</a
-          >
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link" href="https://shuhanlexx.github.io/publications"
-            >Publications</a
-          >
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link" href="https://shuhanlexx.github.io/cv"
-            >CV</a
-          >
-        </li>
-        
-      </ul>
-      <div class="d-flex align-items-center" style="gap: var(--space-2)">
-        <button class="search-toggle" id="searchToggle" aria-label="Search site">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-        
-      </div>
+    <div class="primary-nav" id="primaryNav">
+      <a aria-current="false" href="/"
+        >Home</a
+      >
+      <a
+        aria-current="page"
+        href="/research/"
+        >Research</a
+      >
+      <a
+        aria-current="false"
+        href="/publications/"
+        >Publications</a
+      >
+      <a aria-current="false" href="/cv/"
+        >CV</a
+      >
     </div>
-  </div>
-</nav>
-
-<!-- Search overlay -->
-<div class="search-overlay" id="searchOverlay">
-  <div class="search-modal">
-    <div class="search-input-wrapper">
-      <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
-      <input type="text" class="search-input" id="searchInput" placeholder="Search pages..." autocomplete="off" />
-      <kbd class="search-kbd">ESC</kbd>
+    <div class="navigation-controls">
+      <a
+        class="language-switch"
+        href="/zh/research/"
+        lang="zh-CN"
+        hreflang="zh-CN"
+        aria-label="切换为中文"
+        >中文</a
+      >
+      <button
+        class="theme-control"
+        type="button"
+        id="darkModeToggle"
+        aria-label="Switch between light and dark themes"
+        data-light-label="Switch to light theme"
+        data-dark-label="Switch to dark theme"
+      >
+        <span id="themeIcon" aria-hidden="true">◐</span>
+      </button>
+      <button class="site-menu-button" type="button" id="menuToggle" aria-controls="primaryNav" aria-expanded="false" aria-label="Open navigation">
+        <span aria-hidden="true">☰</span>
+      </button>
     </div>
-    <div class="search-results" id="searchResults"></div>
+  </nav>
+</header>
+
+    <main class="site-container" id="main-content">
+<div class="academic-page">
+  <header class="page-introduction">
+    <p class="profile-kicker">Shuhan Zhang</p>
+    <h1>Research Interests</h1>
+    <p>My research develops a connected workflow for studying policy as a complex social process. Legal questions guide simulation design; empirical data help assess the results; reusable software makes the workflow accessible and reproducible.</p>
+  </header>
+  <div class="research-theme-list">
+  
+  <article class="research-theme">
+    <span class="research-theme__number">01</span>
+    <h3>Legislative studies</h3>
+    <p>Constitutional foundations, legislative design, and the institutional mechanisms through which legal rules shape social outcomes.</p>
+  </article>
+  
+  <article class="research-theme">
+    <span class="research-theme__number">02</span>
+    <h3>LLM-based social simulation</h3>
+    <p>Generative agents and interacting social subsystems for studying heterogeneous behavior and complex social dynamics.</p>
+  </article>
+  
+  <article class="research-theme">
+    <span class="research-theme__number">03</span>
+    <h3>Legislation &amp; policy evaluation</h3>
+    <p>Reproducible policy experiments, real-world data, and statistical validation to compare scenarios and improve proposed interventions.</p>
+  </article>
+  
+</div>
+
+  <section class="homepage-section">
+    <h2>Research in Practice</h2>
+    <div class="publication-feature-list">
+      
+<article class="publication-feature" id="gplab" data-pub-searchable="">
+  
+  <figure class="publication-feature__figure">
+    <a class="publication-feature__preview" href="/images/gplab-framework-original.png" target="_blank" rel="noopener" aria-label="View full image — GPLab: A Generative Agent-Based Framework for Policy Simulation and Evaluation">
+      <img src="/images/gplab-framework-original.png" alt="Original GPLab framework figure showing social agents, social subsystems, and simulation and evaluation." loading="lazy" decoding="async" />
+      <span class="figure-expand" aria-hidden="true">↗</span>
+    </a>
+    <figcaption>Original framework · JASSS</figcaption>
+  </figure>
+  
+  <div class="publication-feature__body">
+    <div class="publication-feature__meta">
+      <span class="publication-feature__eyebrow">2026 · Journal article</span>
+      <span class="work-status work-status--published">Published</span>
+    </div>
+    <h3 lang="en">GPLab: A Generative Agent-Based Framework for Policy Simulation and Evaluation</h3>
+    
+    <p class="publication-feature__authors">
+      Shuhan Zhang, Zifan Peng, Yinwang Ren<span class="author-role">First &amp; corresponding author</span>
+    </p>
+    <p class="publication-feature__citation">Journal of Artificial Societies and Social Simulation · 29(1), Article 6 · 2026</p>
+    <p class="publication-feature__highlight"><strong>Contribution:</strong> A general-purpose framework connecting LLM-driven social agents, modular social subsystems, and an iterative simulation–evaluation loop to support policy scenario comparison and refinement.</p>
+    
+    <div class="publication-feature__links">
+      <a href="https://www.jasss.org/29/1/6.html" target="_blank" rel="noopener">Article <span aria-hidden="true">↗</span></a><a href="https://doi.org/10.18564/jasss.5933" target="_blank" rel="noopener">DOI <span aria-hidden="true">↗</span></a><a href="https://github.com/SmartLegislation/GPLab" target="_blank" rel="noopener">Code <span aria-hidden="true">↗</span></a>
+    </div>
+    
+    <div class="publication-feature__tags"><span>Generative agents</span><span>Policy simulation</span><span>Open source</span></div>
   </div>
+</article>
+
+<article class="publication-feature" id="generative-policy" data-pub-searchable="">
+  
+  <figure class="publication-feature__figure">
+    <a class="publication-feature__preview" href="/images/policy-evaluation-framework.png" target="_blank" rel="noopener" aria-label="View full image — 生成式代理模型驱动的政策效果评估新范式：以舆论—经济系统为例">
+      <img src="/images/policy-evaluation-framework.png" alt="Author-provided framework figure connecting LLM social agents, economic and public-opinion subsystems, policy simulation, and outcome evaluation." loading="lazy" decoding="async" />
+      <span class="figure-expand" aria-hidden="true">↗</span>
+    </a>
+    <figcaption>Paper framework · Author-provided</figcaption>
+  </figure>
+  
+  <div class="publication-feature__body">
+    <div class="publication-feature__meta">
+      <span class="publication-feature__eyebrow">2026 · Journal article</span>
+      <span class="work-status work-status--published">Online first</span>
+    </div>
+    <h3 lang="zh-CN">生成式代理模型驱动的政策效果评估新范式：以舆论—经济系统为例</h3>
+    
+    <p class="publication-feature__translation">A New Paradigm for Policy Effect Evaluation Driven by Generative Agent Models: The Case of a Public Opinion–Economy System</p>
+    
+    <p class="publication-feature__authors">
+      Shuhan Zhang et al.<span class="author-role">First &amp; corresponding author</span>
+    </p>
+    <p class="publication-feature__citation">系统工程理论与实践 / Systems Engineering — Theory &amp; Practice · May 2026</p>
+    <p class="publication-feature__highlight"><strong>Contribution:</strong> Connects generative-agent policy simulation with real-world data and statistical validation in a coupled public opinion–economy system, examining the effectiveness of policy evaluation in a concrete setting.</p>
+    
+    <div class="publication-feature__tags"><span>Policy evaluation</span><span>Empirical validation</span><span>Social simulation</span></div>
+  </div>
+</article>
+
+<article class="publication-feature" id="autoabm" data-pub-searchable="">
+  
+  <figure class="publication-feature__figure">
+    <a class="publication-feature__preview" href="/images/autoabm-workbench.png" target="_blank" rel="noopener" aria-label="View full image — Auto-ABM: A Simulation-First Framework for Trace-Grounded and Reproducible Agent-Based Modeling">
+      <img src="/images/autoabm-workbench.png" alt="Actual AutoABM workbench showing model proposals, a running agent network, parameters, and metric charts." loading="lazy" decoding="async" />
+      <span class="figure-expand" aria-hidden="true">↗</span>
+    </a>
+    <figcaption>Actual interface · AutoABM</figcaption>
+  </figure>
+  
+  <div class="publication-feature__body">
+    <div class="publication-feature__meta">
+      <span class="publication-feature__eyebrow">2026 · Manuscript under review</span>
+      <span class="work-status work-status--review">Under external review</span>
+    </div>
+    <h3 lang="en">Auto-ABM: A Simulation-First Framework for Trace-Grounded and Reproducible Agent-Based Modeling</h3>
+    
+    <p class="publication-feature__authors">
+      Shuhan Zhang<span class="author-role">Sole author</span>
+    </p>
+    <p class="publication-feature__citation">Submitted to NeurIPS 2026 FAST Workshop</p>
+    <p class="publication-feature__highlight"><strong>Contribution:</strong> A simulation-first research workbench that links modeling, experiments, and explanations to recorded execution traces, with seed-reproducible runs and exportable reproduction packages including ODD documentation.</p>
+    
+    <div class="publication-feature__links">
+      <a href="https://shuhanlexx.github.io/Auto-ABM/" target="_blank" rel="noopener">Project website <span aria-hidden="true">↗</span></a><a href="https://shuhanlexx.github.io/Auto-ABM/#demo" target="_blank" rel="noopener">Watch demo <span aria-hidden="true">↗</span></a><a href="https://github.com/ShuhanLexX/Auto-ABM" target="_blank" rel="noopener">Source code <span aria-hidden="true">↗</span></a><a href="https://github.com/ShuhanLexX/Auto-ABM/releases" target="_blank" rel="noopener">Download / Releases <span aria-hidden="true">↗</span></a>
+    </div>
+    
+    <div class="publication-feature__tags"><span>Trace-grounded explanation</span><span>Reproducible ABM</span><span>Research software</span></div>
+  </div>
+</article>
+
+    </div>
+  </section>
+  <section class="homepage-section">
+    <h2>Research Approach &amp; Skills</h2>
+    <p>I combine data-driven empirical analysis with programming and the application of large language models to social science. My experience in interdisciplinary research, platform development, and team collaboration supports sustained research output and the development of major research proposals.</p>
+    <div class="skill-list"><span>Empirical analysis</span><span>Generative AI for social science</span><span>Reproducible simulation</span><span>Interdisciplinary collaboration</span></div>
+  </section>
 </div>
 
 
-    <main class="site-container">
-      <div class="fade-in-section">
-  <h2 id="research">Research</h2>
-
-<p>My work asks how legislative and policy questions can be studied as complex, dynamic social systems. I combine legal analysis with data-driven empirical methods and generative-agent modelling.</p>
-
-<div class="research-grid">
-<div class="research-card"><div class="research-body"><h4 class="research-title">Legislation and institutional design</h4><p class="research-desc">I examine the constitutional basis, institutional mechanisms, and implementation logic of legislation, with particular attention to how legal rules shape social coordination and public outcomes.</p></div></div>
-<div class="research-card"><div class="research-body"><h4 class="research-title">Generative-agent social simulation</h4><p class="research-desc">I use large language models as theory-informed cognitive cores for heterogeneous social agents, integrating memory, emotion, perception, and decision-making into reproducible simulation systems.</p></div></div>
-<div class="research-card"><div class="research-body"><h4 class="research-title">Legislation and policy evaluation</h4><p class="research-desc">I develop methods that link scenario-based policy experiments to observed data and statistical validation, enabling comparison, robustness assessment, and design optimization.</p></div></div>
-</div>
-
-<h3 id="gplab-framework">GPLab framework</h3>
-
-<div class="banner-frame">
-<img src="https://shuhanlexx.github.io/images/gplab-framework-original.png" alt="Original GPLab framework figure" loading="lazy" />
-<div class="banner-caption">The original framework figure published in Zhang, Peng, and Ren (2026), <em>Journal of Artificial Societies and Social Simulation</em>. <a href="https://www.jasss.org/29/1/6.html" target="_blank" rel="noopener">Read the article</a>.</div>
-</div>
-
-<p>The framework is organized around three connected layers: social agents, modular social subsystems, and simulation and evaluation. This architecture supports policy-specific scenario design without losing the capacity to study cross-domain feedback and heterogeneous behavioral response.</p>
-
-</div>
-
-    </main>
-
+</main>
     <footer class="site-footer">
-  <div class="footer-grid">
+  <div class="scholar-footer">
     <div>
-      <h5>About</h5>
-      <p>
-        Shuhan Zhang<br>
-        Doctoral Researcher in Law & Computational Social Science<br>
-        School of Law, Zhengzhou University
-      </p>
+      <strong>Shuhan Zhang</strong>
+      <p>Legislation · Social simulation · Policy evaluation</p>
     </div>
-    <div>
-      <h5>Contact</h5>
-      <p>
-        
-        <a href="https://github.com/ShuhanLexX"><i class="fa-brands fa-github"></i> GitHub</a><br>
-      </p>
+    <div class="scholar-footer__links">
+      <a href="/cv/">CV</a>
+      <a href="https://github.com/ShuhanLexX" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://shuhanlexx.github.io/Auto-ABM/" target="_blank" rel="noopener">Auto-ABM ↗</a>
     </div>
-    <div>
-      <h5>Research</h5>
-      <p>
-        <a href="https://www.jasss.org/29/1/6.html"><i class="fa-solid fa-arrow-up-right-from-square"></i> GPLab article</a><br>
-        <a href="https://github.com/SmartLegislation/GPLab"><i class="fa-brands fa-github"></i> GPLab code</a>
-      </p>
-    </div>
-  </div>
-  <div class="footer-grid">
-    <div class="footer-copyright" style="grid-column: 1 / -1;">
-      &copy; 2026 Shuhan Zhang
-    </div>
+    <small>&copy; 2026 Shuhan Zhang</small>
   </div>
 </footer>
-
-<script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
-<script src="/assets/js/site.min.js"></script>
-
+<script src="/assets/js/site.js" defer></script>
 
   </body>
-
 </html>
