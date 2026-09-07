@@ -4,25 +4,22 @@
       ><img src="{{ '/favicon.svg' | relative_url }}" width="25" height="25" alt="" />{{ t.name }}</a
     >
     <div class="primary-nav" id="primaryNav">
-      <a {% if page.page_kind="" ="home" %}aria-current="page" {% endif %} href="{{ locale_prefix | append: '/' | relative_url }}"
+      <a aria-current="{% if page.page_kind == 'home' %}page{% else %}false{% endif %}" href="{{ locale_prefix | append: '/' | relative_url }}"
         >{{ t.nav_home }}</a
       >
-      <a {% if page.page_kind="" ="research" %}aria-current="page" {% endif %} href="{{ locale_prefix | append: '/research/' | relative_url }}"
+      <a
+        aria-current="{% if page.page_kind == 'research' %}page{% else %}false{% endif %}"
+        href="{{ locale_prefix | append: '/research/' | relative_url }}"
         >{{ t.nav_research }}</a
       >
       <a
-        {%
-        if
-        page.page_kind=""
-        ="publications"
-        %}aria-current="page"
-        {%
-        endif
-        %}
+        aria-current="{% if page.page_kind == 'publications' %}page{% else %}false{% endif %}"
         href="{{ locale_prefix | append: '/publications/' | relative_url }}"
         >{{ t.nav_publications }}</a
       >
-      <a {% if page.page_kind="" ="cv" %}aria-current="page" {% endif %} href="{{ locale_prefix | append: '/cv/' | relative_url }}">{{ t.nav_cv }}</a>
+      <a aria-current="{% if page.page_kind == 'cv' %}page{% else %}false{% endif %}" href="{{ locale_prefix | append: '/cv/' | relative_url }}"
+        >{{ t.nav_cv }}</a
+      >
     </div>
     <div class="navigation-controls">
       <a

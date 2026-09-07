@@ -62,7 +62,7 @@ body::before {
   color: var(--text-secondary);
   padding: 0.35rem 0;
 }
-.primary-nav a[aria-current] {
+.primary-nav a[aria-current="page"] {
   color: var(--accent);
   font-weight: 700;
   border-bottom: 2px solid var(--accent);
