@@ -12,4 +12,4 @@
     <small>&copy; {{ "now" | date: "%Y" }} {{ t.name }}</small>
   </div>
 </footer>
-<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
